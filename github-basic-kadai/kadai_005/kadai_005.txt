@@ -1,4 +1,8 @@
 PS C:\Users\0CEF1109\Desktop\samurai\Git> miker git_challenge
+PS C:\Users\0CEF1109\Desktop\samurai\Git> cd git_challenge
+PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git init
+Initialized empty Git repository in C:/Users/0CEF1109/Desktop/samurai/Git/git_challenge/.git/
+PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> echo "Hello World!" > hello_world.txt
 PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git add hello_world.txt
 PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git commit -m "hello_world.txtを追加"
 [main 692a486] hello_world.txtを追加
@@ -7,15 +11,7 @@ PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git add hello_world.txt
 PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git commit -m "日本語訳を追記"
 [main 2f66a2d] 日本語訳を追記
 1 file changed, 2 insertions(+), 1 deletion(-)
-PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git log
-commit 2f66a2dacaec053f50335cbd0bdc5a668b27c866 (HEAD -> main)
-Author: Taiyo0322 <sol564219@gmail.com>
-Date:   Mon Sep 2 23:19:35 2024 +0900
-
-    日本語訳を追記
-
-commit 692a486e1ad2511e2d6108f48842c429eb6fb9a1
-Author: Taiyo0322 <sol564219@gmail.com>
-Date:   Mon Sep 2 23:18:52 2024 +0900
-
-    hello_world.txtを追加
+PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git log --oneline
+e1f7aa7 (HEAD -> main) 日本語訳を追記
+2f66a2d 日本語訳を追記
+692a486 hello_world.txtを追加
