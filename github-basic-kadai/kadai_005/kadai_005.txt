@@ -1,4 +1,14 @@
 PS C:\Users\0CEF1109\Desktop\samurai\Git> miker git_challenge
+
+
+    ディレクトリ: C:\Users\0CEF1109\Desktop\samurai\Git
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/09/02     22:42                git_challenge
+
+
 PS C:\Users\0CEF1109\Desktop\samurai\Git> cd git_challenge
 PS C:\Users\0CEF1109\Desktop\samurai\Git\git_challenge> git init
 Initialized empty Git repository in C:/Users/0CEF1109/Desktop/samurai/Git/git_challenge/.git/
